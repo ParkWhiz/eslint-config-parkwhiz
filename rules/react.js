@@ -136,10 +136,6 @@ module.exports = {
       shorthandLast: false,
     }],
 
-    // Enforce spaces before the closing bracket of self-closing JSX elements
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    'react/jsx-space-before-closing': ['error', 'always'],
-
     // Validate whitespace in and around the JSX opening and closing brackets
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
     'react/jsx-tag-spacing': ['error', {
@@ -167,7 +163,7 @@ module.exports = {
     // Prevent using Array index in key props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
     'react/no-array-index-key': 'warn',
-    
+
     // Prevent passing of children as props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
     'react/no-children-prop': 'error',
@@ -287,8 +283,8 @@ module.exports = {
       ignoreCase: true,
       callbacksLast: false,
       requiredFirst: false,
-    }], 
-    
+    }],
+
     // Require style prop value be an object or var
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
     'react/style-prop-object': 'error',
